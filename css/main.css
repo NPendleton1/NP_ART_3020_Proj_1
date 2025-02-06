@@ -11,10 +11,19 @@ body{
     color:#f5f5f5;
 }
 
+.mainheader{
+    background-color: #3c3c3c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 25px;
+}
+
 .images{
     width: 400px;
     border-radius: 10px;
     box-shadow: 0 0 15px #000000;
+    margin: 25px;
 }
 
 .button{
@@ -68,4 +77,19 @@ body{
 a:hover{
     background-color:#023b04;
     transform: scale(1.05);
+}
+
+.specifications ul{
+    list-style-type: none;
+    padding-left: none;
+}
+
+.footer{
+    background-color: #023b04;
+    min-height: 50px;
+    padding: 5px;
+}
+
+.header uranium powered lamp {
+    font-weight: 900;
 }
